@@ -1,0 +1,8 @@
+{% block content %}
+    {% for persons in body %}
+    {% for key, value in persons.items() %}
+        {{value}}
+    {% endfor %}
+{% endfor %}
+{% endblock %}
+
